@@ -1,0 +1,13 @@
+name = "KCL"
+grammar = "kcl"
+path_suffixes = ["k"]
+line_comments = ["# "]
+autoclose_before = "}])"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+]
+
+tab_size = 4

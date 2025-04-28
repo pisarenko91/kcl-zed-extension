@@ -1,0 +1,12 @@
+#
+# zed-kcl
+#
+
+*.wasm
+
+#
+# Rust
+#
+
+/target
+/grammars

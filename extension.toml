@@ -1,0 +1,15 @@
+id = "kcl-zed-extension"
+name = "KCL extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Nikola Jovanovic <nikola.jovanovic991@gmail.com>"]
+description = "Zed editor extension for KCL lang."
+repository = "https://github.com/pisarenko91/kcl-zed-extension"
+
+[language_servers.kcl-lsp]
+name = "KCL LSP"
+languages = ["KCL"]
+
+[grammars.kcl]
+repository = "https://github.com/kcl-lang/tree-sitter-kcl"
+rev = "b0b2eb38009e04035a6e266c7e11e541f3caab7c"
