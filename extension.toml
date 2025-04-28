@@ -1,4 +1,4 @@
-id = "kcl-zed-extension"
+id = "kcl"
 name = "KCL extension"
 version = "0.0.1"
 schema_version = 1
