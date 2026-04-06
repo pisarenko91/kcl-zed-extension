@@ -45,8 +45,8 @@ impl KclExtension {
         // Get architecture name
         let arch_name = match arch {
             zed::Architecture::Aarch64 => "arm64",
-            zed::Architecture::X86 => "amd64",
-            zed::Architecture::X8664 =>
+            zed::Architecture::X8664 => "amd64",
+            zed::Architecture::X86 =>
                 return Err(format!("unsupported architecture: {arch:?}")),
         };
 
